@@ -1,4 +1,3 @@
-
 # Función para calcular XOR
 def xor_bytes(a, b):
 
@@ -12,9 +11,11 @@ def xor_bytes(a, b):
 if __name__ == "__main__": # Descubro el porque del __name__ == "__main__"
     input_1 = "B1EF2ACFE2BAEEFF"
     input_2 = "91BA13BA21AABB12"
-    
-    input_3 = "B1EF2ACFE2BAEEFF"
-    input_4 = "91BA13BA21AABB12"
+    input_3 = "B98A15BA31AEBB3F"
 
+    # Calculo segun inputs
+    print("--------------------------------------------------------")
     print(f"{input_1} XOR {input_2} = {xor_bytes(input_1, input_2)}")
-    print(f"{input_3} XOR {input_4} = {xor_bytes(input_3, input_4)}")
+    print("--------------------------------------------------------")
+    print(f"{input_1} XOR {input_3} = {xor_bytes(input_1, input_3)}")
+    print("--------------------------------------------------------")
