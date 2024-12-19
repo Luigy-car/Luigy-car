@@ -45,6 +45,7 @@ descifrado = unpad(descifrado_bytes, AES.block_size)
 # Texto descifrado para mostrar tamaño en bytes
 texto = "Esto es un cifrado en bloque típico. Recuerda, vas por el buen camino. Ánimo."
 
+# Se muestra texto descifrado en formato utf-8
 print("-----------------------------------------------------")
 print(f"Dato en claro: {descifrado.decode('UTF-8')}")
 
