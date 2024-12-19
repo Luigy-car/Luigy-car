@@ -6,7 +6,7 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 from Crypto.Random import get_random_bytes
 
-
+# Extraemos clave mediante ruta del cifrado en el KeyStore (gracias por compartir codigo Felipe)
 keystore = "/home/luigy/Desktop/Bootcamp/CriptoGrafía/cripto-main/Practica/KeyStorePracticas"
 
 ks = jks.KeyStore.load(keystore, "123456")
